@@ -1,0 +1,20 @@
+<stack class="stack">
+    <image src='/common/background.png' class="background"></image>
+    <div class="container" onswipe="touchMove">
+        <list class="showList">
+            <list-item class="showListItem">
+                    <text class="title">Timeout ID: {{ timeoutID }}</text>
+                    <text class="title">Value: {{ value }}</text>
+                    <input class="btn" type="button" value="Start Timeout" onclick="setTimeOut"></input>
+                    <input class="btn" type="button" value="Stop Timeout" onclick="clearTimeOut"></input>
+            </list-item>
+
+            <list-item class="showListItem">
+                    <text class="title">Interval ID: {{ intervalID }}</text>
+                    <text class="title">Value: {{ value }}</text>
+                    <input class="btn" type="button" value="Start Interval" onclick="setInterval"></input>
+                    <input class="btn" type="button" value="Stop Interval" onclick="clearInterval"></input>
+            </list-item>
+        </list>
+    </div>
+</stack>

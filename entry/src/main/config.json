@@ -39,7 +39,10 @@
           "pages/SliderNSwitchPage/SliderNSwitchPage",
           "pages/PickerPage/PickerPage",
           "pages/SaveStoragePage/SaveStoragePage",
-          "pages/SensorPage/SensorPage"
+          "pages/SensorPage/SensorPage",
+          "pages/RouteBackHomePage/RouteBackHomePage",
+          "pages/RouteBackDetailPage/RouteBackDetailPage",
+          "pages/TimerPage/TimerPage"
         ]
       }
     ]

@@ -1,0 +1,6 @@
+@import '../../common/style.css';
+
+.updateBtn{
+    width: 350px;
+    height: 50px;
+}

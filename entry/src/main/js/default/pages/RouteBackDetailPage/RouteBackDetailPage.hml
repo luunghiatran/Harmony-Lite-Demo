@@ -1,0 +1,6 @@
+<div class="container">
+    <text class="title">Destination Page</text>
+    <div class="seperator" ></div>
+    <text class="subtitle">{{sentData}}</text>
+    <input class="updateBtn" type="button" value="Go back HOME" onclick="gotoHome"></input>
+</div>

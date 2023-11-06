@@ -1,0 +1,8 @@
+<stack class="stack">
+    <image src='/common/background.png' class="background"></image>
+    <div class="container" onswipe="touchMove">
+        <text class="title">Data from detail:</text>
+        <text class="title">{{ dataFromDetail }}</text>
+        <input class="updateBtn" type="button" value="Go to Second Page" onclick="gotoDetail"></input>
+    </div>
+</stack>

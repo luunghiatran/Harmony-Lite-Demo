@@ -52,6 +52,16 @@
                     sample 1
                 </text>
             </list-item>
+            <list-item class="showListItem" onclick="openPage('RouteBackHomePage/RouteBackHomePage')">
+                <text>
+                    Route Back
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="openPage('TimerPage/TimerPage')">
+                <text>
+                    Timer
+                </text>
+            </list-item>
         </list>
     </div>
 </stack>
