@@ -1,0 +1,47 @@
+{
+  "app": {
+    "bundleName": "home.nghiatran.lunacalendar",
+    "vendor": "nghiatran",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "deviceType": [
+      "liteWearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "name": "default",
+        "icon": "$media:icon",
+        "label": "$string:entry_MainAbility",
+        "type": "page"
+      }
+    ],
+    "js": [
+      {
+        "name": "default",
+        "pages": [
+          "pages/sample1/sample1",
+          "pages/index/index",
+          "pages/ListPage/ListPage",
+          "pages/ImageAnimatorPage/ImageAnimatorPage",
+          "pages/CssAnimationPage/CssAnimationPage",
+          "pages/SwiperPage/SwiperPage",
+          "pages/ProgressPage/ProgressPage",
+          "pages/SliderNSwitchPage/SliderNSwitchPage",
+          "pages/PickerPage/PickerPage",
+          "pages/SaveStoragePage/SaveStoragePage",
+          "pages/SensorPage/SensorPage"
+        ]
+      }
+    ]
+  }
+}

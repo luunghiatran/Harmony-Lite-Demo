@@ -1,0 +1,9 @@
+<stack class="stack">
+    <image src='/common/background.png' class="background"></image>
+    <div class="container">
+        <div id="effect1" class="changeColor"></div>
+        <div class="space"></div>
+        <div id="effect2" class="circleAnimation"></div>
+        <input class="backBtn" type="button" value="Back" onclick="backAction"></input>
+    </div>
+</stack>

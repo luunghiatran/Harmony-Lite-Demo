@@ -1,0 +1,58 @@
+@import '../../common/style.css';
+
+.space {
+    background-color: transparent;
+    width: 454px;
+    height: 10px;
+}
+
+.backBtn {
+    width: 200px;
+    height: 50px;
+}
+
+.changeColor {
+    width: 100px;
+    height: 100px;
+    animation-name: Go;
+    animation-duration: 5s;
+    animation-delay: 0;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Go
+{
+    from {
+        background-color: #f76160;
+    }
+    to {
+        background-color: #09ba07;
+    }
+}
+
+.circleAnimation {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation-name: Stretch;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes Stretch {
+    from {
+        transform: rotate(90);
+        background-color: red;
+        border-radius: 30px;
+    }
+    to {
+        background-color: yellow;
+        transform: rotate(180);
+        border-radius: 0px;
+    }
+}

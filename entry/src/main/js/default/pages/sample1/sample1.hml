@@ -1,0 +1,35 @@
+<swiper class="container" index="{{index}}">
+    <div class="swiper-item first-page">
+        <div class="first-page-content">
+            <text class="title">
+                GPS: {{latlon}}
+            </text>
+            <text class="title">
+                Accuracy: {{accuracy}}
+            </text>
+            <text class="title">
+                Battery: {{battery}}
+            </text>
+            <input type="button" class="btn" value="Update data" onclick="updateData"/>
+        </div>
+    </div>
+    <div class="swiper-item second-page">
+        <progress class="progress" type="arc" percent="{{percentage}}"/>
+        <input type="button" class="progress-btn" value="Start" onclick="startProgressBar"/>
+        <input type="button" class="progress-btn" value="Stop" onclick="stopProgressBar"/>
+    </div>
+    <div class="swiper-item third-page third-page-content">
+        <text class="todo-upper-title">
+            Meeting Notes
+        </text>
+        <list class="todo-wraper">
+            <list-item for="{{todolist}}" class="todo-item">
+                <text class="todo-title">{{$item.title}}</text>
+                <text class="todo-title">{{$item.date}}</text>
+            </list-item>
+        </list>
+    </div>
+    <div class="swiper-item fourth-page">
+        <image class="photo-detail" src="/common/images/huawei.png" />
+    </div>
+</swiper>

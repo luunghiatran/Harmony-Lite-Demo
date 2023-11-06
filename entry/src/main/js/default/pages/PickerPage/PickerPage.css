@@ -1,0 +1,11 @@
+@import '../../common/style.css';
+
+.pickerView{
+    width: 200px;
+    height: 130px;
+}
+
+.pickerViewTime{
+    width: 200px;
+    height: 130px;
+}

@@ -1,0 +1,13 @@
+<stack class="stack" onswipe="touchMove">
+    <image src='/common/background.png' class="background"></image>
+    <div class="container">
+        <text class="title">
+            Swiper
+        </text>
+        <swiper class="swiper" duration="1">
+            <div for="{{imagesList}}" tid="id" class="imageContainer">
+                <image src="{{$item.src}}" class="image"></image>
+            </div>
+        </swiper>
+    </div>
+</stack>

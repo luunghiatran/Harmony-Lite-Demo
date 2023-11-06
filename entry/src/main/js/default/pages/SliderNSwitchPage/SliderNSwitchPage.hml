@@ -1,0 +1,13 @@
+<stack class="stack">
+    <image src='/common/background.png' class="background"></image>
+    <div class="container" onswipe="touchMove">
+        <text class="title">
+            Slider
+        </text>
+        <slider class="sliderClass"></slider>
+        <text class="title">
+            Switch
+        </text>
+        <switch></switch>
+    </div>
+</stack>

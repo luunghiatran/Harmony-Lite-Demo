@@ -1,0 +1,16 @@
+@import '../../common/style.css';
+
+.updateBtn{
+    width: 200px;
+    height: 50px;
+}
+.progressHorizontal{
+    color: #6b9ac7;
+    width: 300px;
+    height: 50px;
+}
+.progressArc{
+    color: yellow;
+    width: 400px;
+    height: 250px;
+}

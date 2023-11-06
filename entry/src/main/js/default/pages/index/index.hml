@@ -1,0 +1,57 @@
+<stack class="stack">
+    <image src='/common/background.png' class="background"></image>
+    <div class="container" onswipe="touchMove">
+        <list class="showList">
+            <list-item class="showListItem" onclick="openPage('ListPage/ListPage')">
+                <text>
+                    Array
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="openPage('ImageAnimatorPage/ImageAnimatorPage')">
+                <text>
+                    Animator
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="openPage('CssAnimationPage/CssAnimationPage')">
+                <text>
+                    CSS Animation
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="openPage('SwiperPage/SwiperPage')">
+                <text>
+                    Swiper
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="openPage('ProgressPage/ProgressPage')">
+                <text>
+                    Progress
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="openPage('SliderNSwitchPage/SliderNSwitchPage')">
+                <text>
+                    Slider / Switch
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="openPage('PickerPage/PickerPage')">
+                <text>
+                    Picker
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="openPage('SaveStoragePage/SaveStoragePage')">
+                <text>
+                    Save Storage
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="openPage('SensorPage/SensorPage')">
+                <text>
+                    Sensor
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="openPage('sample1/sample1')">
+                <text>
+                    sample 1
+                </text>
+            </list-item>
+        </list>
+    </div>
+</stack>

@@ -1,0 +1,9 @@
+@import '../../common/style.css';
+
+.sliderClass{
+    width: 300px;
+    height: 54px;
+    color: #ffffff;
+    selected-color: orange;
+    block-color: #6b9ac7;
+}

@@ -1,0 +1,12 @@
+{
+ "1.0.0": {
+  "LastPreviewDevice": {
+   "/Volumes/Data/Projects/Harmony/NghiaTestHarmony/entry/.preview/intermediates/res/debug": [
+    "liteWearable"
+   ],
+   "/Volumes/Data/Projects/Harmony/NghiaTestHarmony/entry/build/intermediates/res/debug": [
+    "liteWearable"
+   ]
+  }
+ }
+}

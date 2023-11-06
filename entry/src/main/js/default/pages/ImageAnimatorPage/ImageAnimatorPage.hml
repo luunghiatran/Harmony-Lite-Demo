@@ -1,0 +1,10 @@
+
+<stack class="stack">
+    <image src='/common/background.png' class="background"></image>
+    <div class="container">
+        <image-animator class="image-player" ref="animator" images="{{images}}" duration="1s"
+                        onclick="handleClick"></image-animator>
+        <input class="backBtn" type="button" value="Play/Pause" onclick="handleClick"></input>
+        <input class="backBtn" type="button" value="Back" onclick="backAction"></input>
+    </div>
+</stack>

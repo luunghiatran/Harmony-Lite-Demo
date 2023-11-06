@@ -1,0 +1,9 @@
+<stack class="stack">
+    <image src='/common/background.png' class="background"></image>
+    <div class="container" onswipe="touchMove">
+        <text class="title">Progress</text>
+        <progress class="progressHorizontal" type="horizontal" percent="{{progressNumber}}"></progress>
+        <progress class="progressArc" type="arc" percent="{{progressNumber}}"></progress>
+        <input class="updateBtn" type="button" value="Update" onclick="updateProgress"></input>
+    </div>
+</stack>

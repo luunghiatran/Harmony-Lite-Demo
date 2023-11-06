@@ -1,0 +1,19 @@
+<stack class="stack">
+    <image src='/common/background.png' class="background"></image>
+    <div class="container" onswipe="touchMove">
+        <text class="title">
+            System Capabilities
+        </text>
+        <text class="title" style="height: 100px; color: red;">
+            {{messageStatus}}
+        </text>
+        <div class="row" style="height: 80px;">
+            <input class="btn" type="button" value="Vibrate" onclick="makeVibrate"></input>
+            <input class="btn" type="button" value="Location" onclick="getLocation"></input>
+        </div>
+        <div class="row" style="height: 80px;">
+            <input class="btn" type="button" value="Info" onclick="getDeviceInfo"></input>
+            <input class="btn" type="button" value="Brightness" onclick="setBrightness(255)"></input>
+        </div>
+    </div>
+</stack>

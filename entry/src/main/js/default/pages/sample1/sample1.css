@@ -1,0 +1,99 @@
+.first-page-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 454px;
+    height: 454px;
+    background-color: rebeccapurple;
+    font-size: 38px;
+}
+.container {
+    left: 0px;
+    top: 0px;
+    width: 454px;
+    height: 454px;
+}
+.swiper-item {
+    width: 454px;
+    height: 454px;
+    justify-content: center;
+    align-items: center;
+}
+.second-page {
+    background-color: #00A3AC;
+    width: 454px;
+    height: 454px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.third-page {
+    background-color: #41ba41;
+}
+.fourth-page{
+    background-color: white;
+}
+.title {
+    text-align: center;
+    margin: 10px;
+}
+.btn {
+    border-radius: 8px;
+    width: 180px;
+    margin-top: 8px;
+    background-color: purple;
+}
+.progress {
+    width: 450px;
+    height: 250px;
+    font-size: 30px;
+    text-align: center;
+    color: orange;
+}
+.progress-btn {
+    border-radius: 8px;
+    width: 180px;
+    margin-top: 8px;
+    background-color: #AD8F00;
+}
+.todo-wraper {
+    width: 454px;
+    height: 300px;
+    background-color: green;
+}
+.todo-item {
+    width: 454px;
+    height: 100px;
+    flex-direction: column;
+    background-color: green;
+}
+.todo-title {
+    width: 454px;
+    height: 40px;
+    text-align: center;
+}
+.third-page-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.todo-upper-title {
+    border-color: #00AE24;
+    border-width: 3px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #208000;
+}
+.photo-detail {
+    width: 300px;
+    height: 300px;
+    border-color: red;
+    border-width: 2px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

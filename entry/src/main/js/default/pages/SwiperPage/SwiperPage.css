@@ -1,0 +1,23 @@
+@import '../../common/style.css';
+
+.swiper{
+    width: 454px;
+    height: 300px;
+    background-color: transparent;
+}
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 454px;
+    height: 300px;
+    background-color: transparent;
+}
+
+.image{
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+}

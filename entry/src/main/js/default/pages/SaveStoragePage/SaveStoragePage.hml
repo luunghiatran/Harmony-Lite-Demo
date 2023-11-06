@@ -1,0 +1,15 @@
+<stack class="stack">
+    <image src='/common/background.png' class="background"></image>
+    <div class="container" onswipe="touchMove">
+        <text class="title">
+            Storage
+        </text>
+        <text class="title" style="height: 130px">{{nameValue}}</text>
+        <div class="row">
+            <input class="btn-small" type="button" value="Get" onclick="getStorage"></input>
+            <input class="btn-small" type="button" value="Set" onclick="setStorage"></input>
+            <input class="btn-small" type="button" value="Clear" onclick="clearStorage"></input>
+            <input class="btn-small" type="button" value="Delete" onclick="deleteStorage"></input>
+        </div>
+    </div>
+</stack>
